@@ -18,7 +18,6 @@ import java.util.List;
 @RequestMapping("/api/car")
 public interface CarController {
 
-    
     @GetMapping("/list")
     List<CarDto> getAllCars();
 

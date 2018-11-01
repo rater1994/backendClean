@@ -6,7 +6,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Getter @Setter @NoArgsConstructor
 @Entity
 public class Car {
 
@@ -88,7 +87,6 @@ public class Car {
         carDto.setCarPrice(this.carPrice);
         return carDto;
     }
-
     public void update(CarDto dto){
         this.carPrice=dto.getCarPrice();
         this.combustibleType=dto.getCombustibleType();
@@ -97,7 +95,4 @@ public class Car {
         this.numberRegister=dto.getNumberRegister();
         this.transmissionType=dto.getTransmissionType();
     }
-
-
-
 }

@@ -22,8 +22,6 @@ public class CarControllerImpl implements CarController {
    @Autowired
    private CarRepository carRepository;
 
-
-
     public CarControllerImpl(CarService carService, CarRepository carRepository) {
         this.carService = carService;
         this.carRepository = carRepository;
@@ -63,6 +61,4 @@ public class CarControllerImpl implements CarController {
     public CarDto findCar(@PathVariable Long id) {
         return carService.findById(id);
     }
-
-
 }

@@ -17,13 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Getter @Setter
 @Service
 public class CarServiceImpl implements CarService {
 
     @Autowired
     private CarRepository carRepository;
-
 
     @Override
     public List<CarDto> getAllCarsDTO(){
@@ -33,7 +31,6 @@ public class CarServiceImpl implements CarService {
         });
         return list;
     }
-
 
     @Override
     public CarDto addCarDTO(CarDto carDTO) {
@@ -48,7 +45,6 @@ public class CarServiceImpl implements CarService {
 
         if(dbCar.isPresent()){
             Car car = dbCar.get();
-
             car.setCombustibleType(carDto.getCombustibleType());
             car.setTransmissionType(carDto.getTransmissionType());
             car.setCarPrice(carDto.getCarPrice());
@@ -75,5 +71,4 @@ public class CarServiceImpl implements CarService {
             throw new RuntimeException("Cannot delete car with id: " + id);
         }
     }
-
 }
