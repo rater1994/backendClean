@@ -54,7 +54,7 @@ public class CarControllerImpl implements CarController {
         }catch (RuntimeException e){
             return ResponseEntity.badRequest().body(e.getMessage());
         }
-        return  ResponseEntity.ok("The id: "+ id + " deleted!");
+        return  ResponseEntity.ok().build(); //<- -> message: return  ResponseEntity.ok("The id: "+ id + " deleted!");
     }
 
     @Override
