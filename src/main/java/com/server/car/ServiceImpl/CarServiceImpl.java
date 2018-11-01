@@ -67,7 +67,6 @@ public class CarServiceImpl implements CarService {
     public void deleteCarDTO(Long id) throws RuntimeException {
         try {
             carRepository.deleteById(id);
-            ResponseEntity.ok("ID with number: " + id + " deleted");
         }catch (Exception e){
             throw new RuntimeException("Cannot delete car with id: " + id);
         }
