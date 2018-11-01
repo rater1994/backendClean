@@ -49,7 +49,6 @@ public class CarServiceImpl implements CarService {
         if(dbCar.isPresent()){
             Car car = dbCar.get();
 
-            car.setId(carDto.getId());
             car.setCombustibleType(carDto.getCombustibleType());
             car.setTransmissionType(carDto.getTransmissionType());
             car.setCarPrice(carDto.getCarPrice());
