@@ -50,7 +50,7 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="java" value="5023" />
-          <entry key="properties" value="118" />
+          <entry key="properties" value="120" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -58,7 +58,7 @@
         <counts>
           <entry key="JAVA" value="5023" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Properties" value="118" />
+          <entry key="Properties" value="120" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
