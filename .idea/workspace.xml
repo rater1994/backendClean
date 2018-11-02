@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2659080f-cd89-480d-84b0-0585a9298097" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +51,7 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="java" value="5023" />
-          <entry key="properties" value="114" />
+          <entry key="properties" value="117" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -58,7 +59,7 @@
         <counts>
           <entry key="JAVA" value="5023" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Properties" value="114" />
+          <entry key="Properties" value="117" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
