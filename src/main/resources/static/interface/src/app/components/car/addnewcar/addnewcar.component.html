@@ -4,7 +4,8 @@
   <a routerLink="/admin"><button class="btn btn-success pull-right" > List </button></a>
 </div>
  -->
-
+ <app-navbar></app-navbar>
+ <br>
 <div class="container">
   <form [formGroup]="carForm" (ngSubmit)="submitAddedCar()" novalidate>
     <div *ngIf="validMessage != ''">

@@ -1,6 +1,6 @@
 <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
+  <li><a [routerLink]="['']">Home</a></li>
+  <li><a [routerLink]="['/car/list']">List</a></li>
+  <li><a [routerLink]="['/car/add']" >Add</a></li>
+  <li><a [routerLink]="['/getcar/:id']">Find</a></li>
 </ul>

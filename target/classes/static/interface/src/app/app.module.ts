@@ -8,6 +8,7 @@ import { CarService } from './services/car.service';
 import { AddnewcarComponent } from './components/car/addnewcar/addnewcar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FindbyidComponent } from './components/car/findbyid/findbyid.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FindbyidComponent } from './components/car/findbyid/findbyid.component'
     CarlistComponent,
     AddnewcarComponent,
     FindbyidComponent,
+    NavbarComponent,
     
   ],
   imports: [

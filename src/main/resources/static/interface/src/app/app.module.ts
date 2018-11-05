@@ -9,6 +9,9 @@ import { AddnewcarComponent } from './components/car/addnewcar/addnewcar.compone
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FindbyidComponent } from './components/car/findbyid/findbyid.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { FilterPipe } from './filter.pipe';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AddnewcarComponent,
     FindbyidComponent,
     NavbarComponent,
+    HomeComponent,
+    FilterPipe,
+    
+   
     
   ],
   imports: [
@@ -24,7 +31,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFontAwesomeModule
+
   ],
   providers: [CarService],
   bootstrap: [AppComponent]

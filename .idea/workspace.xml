@@ -3,14 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="2659080f-cd89-480d-84b0-0585a9298097" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/car/Entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/car/Entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/addnewcar/addnewcar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/addnewcar/addnewcar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/carlist/carlist.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/carlist/carlist.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/services/car.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/services/car.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/car/Entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/car/Entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/carlist/carlist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/carlist/carlist.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/findbyid/findbyid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/findbyid/findbyid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/findbyid/findbyid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/car/findbyid/findbyid.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/interface/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/interface/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/interface/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/interface/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/interface/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/interface/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/carlist/carlist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/carlist/carlist.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/findbyid/findbyid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/findbyid/findbyid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/findbyid/findbyid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/interface/src/app/components/car/findbyid/findbyid.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +44,9 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,8 +92,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/server/car/Controller/CarController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7020">
-              <caret line="468" column="14" selection-start-line="468" selection-start-column="14" selection-end-line="468" selection-end-column="14" />
+            <state relative-caret-position="6915">
+              <caret line="461" column="14" selection-start-line="461" selection-start-column="14" selection-end-line="461" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -230,7 +244,7 @@
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
-    <option name="height" value="1053" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,15 +362,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="car" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Car" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -427,10 +436,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="927" height="1053" extended-state="4" />
-    <editor active="true" />
+    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29284903" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29625425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,13 +448,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33044422" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -519,8 +527,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/server/car/Controller/CarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="345">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -587,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7020">
-          <caret line="468" column="14" selection-start-line="468" selection-start-column="14" selection-end-line="468" selection-end-column="14" />
+        <state relative-caret-position="6915">
+          <caret line="461" column="14" selection-start-line="461" selection-start-column="14" selection-end-line="461" selection-end-column="14" />
         </state>
       </provider>
     </entry>

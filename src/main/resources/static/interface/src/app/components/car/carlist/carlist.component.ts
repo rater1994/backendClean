@@ -1,13 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { CarService } from 'src/app/services/car.service';
+import { FilterPipe } from 'src/app/filter.pipe';
 
 @Component({
   selector: 'app-carlist',
   templateUrl: './carlist.component.html',
   styleUrls: ['./carlist.component.css']
-})
-export class CarlistComponent implements OnInit {
 
+  
+})
+
+export class CarlistComponent implements OnInit {
   public cars;
   constructor(private carService:CarService) { }
 

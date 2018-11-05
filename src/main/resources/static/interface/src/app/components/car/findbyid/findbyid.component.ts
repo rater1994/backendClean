@@ -9,6 +9,18 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class FindbyidComponent implements OnInit {
   public carId;
+
+  characters = [
+    'Finn the human',
+    'Jake the dog',
+    'Princess bubblegum',
+    'Lumpy Space Princess',
+    'Beemo1',
+    'Beemo2'
+  ]
+  
+
+  
   constructor(private carService:CarService,
               private route:ActivatedRoute) { }
 
@@ -25,5 +37,7 @@ export class FindbyidComponent implements OnInit {
       err => console.log(err),
     );
   }
+
+
 
 }
