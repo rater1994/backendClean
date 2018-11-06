@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarService } from 'src/app/services/car.service';
-import { FilterPipe } from 'src/app/filter.pipe';
+import { CarService } from '../../../services/car.service';
 
 @Component({
   selector: 'app-carlist',
@@ -24,5 +23,7 @@ export class CarlistComponent implements OnInit {
     err => console.log(err),
     () => console.log("Car loaded")
     );}
+
+
     
 }

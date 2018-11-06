@@ -23,7 +23,12 @@ export class CarService {
   }
 
   getCarId(id:number){
-    return this.http.get('server/api/car/find' + id)
+    return this.http.get('server/api/car/find/' + id)
+  }
+
+  editCar(car){
+    let body = JSON.stringify(car);
+    return this.http.put('/server/api/car/edit/ + id',  body, httpoptions);
   }
 
 }

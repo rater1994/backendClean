@@ -22,9 +22,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     NavbarComponent,
     HomeComponent,
     FilterPipe,
-    
-   
-    
+  
+
   ],
   imports: [
     BrowserModule,
