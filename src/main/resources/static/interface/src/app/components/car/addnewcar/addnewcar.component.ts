@@ -3,6 +3,7 @@ import { CarService } from 'src/app/services/car.service';
 import {FormGroup,FormControl,Validators} from '@angular/forms'
 import { Observable } from 'rxjs';
 
+
 @Component({
   selector: 'app-addnewcar',
   templateUrl: './addnewcar.component.html',
@@ -14,12 +15,15 @@ export class AddnewcarComponent implements OnInit {
   transmissionType: string[] = ['Manual', 'Auto'];
   combustibleType: string[] = ['Diesel','Benzin'];
 
+  
+
+
 
   constructor(private carService:CarService) { }
 
   ngOnInit() {
     this.carForm = new FormGroup({
-      mark: new FormControl ('', Validators.required),
+      mark: new FormControl (null, {updateOn:'blur'}),
       numberRegister: new FormControl ('',Validators.required),
       transmissionType : new FormControl ('',Validators.required),
       combustibleType: new FormControl('',Validators.required),
@@ -29,9 +33,10 @@ export class AddnewcarComponent implements OnInit {
 
   submitAddedCar(){
     if(this.carForm.valid){
+      console.log("TEST!");
       this.validMessage = "Car added!";
       this.carService.addNewCar(this.carForm.value).subscribe(
-        data =>{this.carForm.reset();
+        data =>{this.carForm.updateOn
         return true;
       },
       error => {return Observable.throw(error);

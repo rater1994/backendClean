@@ -12,6 +12,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { FilterPipe } from './filter.pipe';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { Http } from '@angular/http';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -22,16 +24,19 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     NavbarComponent,
     HomeComponent,
     FilterPipe,
-  
-
+    
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AngularFontAwesomeModule
+    HttpModule,
+    AngularFontAwesomeModule,
+    
+  
 
   ],
   providers: [CarService],

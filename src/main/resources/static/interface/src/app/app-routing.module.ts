@@ -6,6 +6,7 @@ import { combineLatest } from 'rxjs';
 import { CarlistComponent } from './components/car/carlist/carlist.component';
 import { AddnewcarComponent } from './components/car/addnewcar/addnewcar.component';
 
+
 const routes: Routes = [
 {path: '', component:HomeComponent}, 
 {path: 'car/list', component:CarlistComponent},

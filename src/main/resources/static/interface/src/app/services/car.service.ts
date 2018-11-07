@@ -26,9 +26,16 @@ export class CarService {
     return this.http.get('server/api/car/find/' + id)
   }
 
-  editCar(car){
+  editCar(id:number,car){
     let body = JSON.stringify(car);
-    return this.http.put('/server/api/car/edit/ + id',  body, httpoptions);
+    return this.http.put('server/api/car/edit/' + id,  body, httpoptions);
   }
+
+  testEditCar( id:number,car){
+    let body = JSON.stringify(car);
+    return this.http.put('server/api/car/edit/' + id, body, httpoptions,);
+  
+  }
+
 
 }
